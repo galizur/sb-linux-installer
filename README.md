@@ -1,5 +1,20 @@
 # Streamer.Bot Linux Install Script
 
+⚠️ **Note:** This is a fork of the original Linux install script for Streamer.bot.
+It includes ongoing fixes and features not present upstream and is maintained independently.
+Use this version if you need improved Linux compatibility or additional options.
+
+## Acknowledgements
+
+Special thanks to [@bonaccolto90](https://github.com/bonaccolto90) for their contributions improving Linux and Proton support.
+
+---
+
+## Fixes
+
+- Update Lutris script to use latest proton by default.
+- Handle quoted values in `/etc/os-release`
+
 With this script you can easily install the latest version of [Streamer.bot](https://github.com/Streamerbot/Streamer.bot) on Linux.
 It will create a command `streamer.bot` as well as a menu entry via `streamerbot.desktop`
 
